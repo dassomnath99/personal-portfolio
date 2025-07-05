@@ -1,0 +1,149 @@
+
+.Roboto-1 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.body{
+    margin-left:20%;
+    margin-right: 20%;
+    font-family: "Libertinus Math";
+    background-color: rgb(254,254,254);
+}
+.profile-picture{
+    height: 150px;
+    border-radius: 50%;
+
+}
+.Name{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.short-bio{
+    color: rgb(83,83,106);
+    font-size: large;
+    font-weight: 500;
+}
+.butun{
+    display: flex;
+    flex-direction: row;
+}
+.available{
+    background-color: white;
+    border-width: 1px;
+    border-radius: 50px;
+    min-width: 150px;
+    height: 60px;
+    background-color: rgb(220,253,230);
+    border: none;
+    color: rgb(104,134,22);
+    font-weight: 600;
+    font-size: large;
+    font-family: "Libertinus Math";
+}
+.Hire{
+    background-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    min-width: 200px;
+    max-width: 1000px;
+    margin-right: 10px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    font-size: large;
+    font-family: "Libertinus Math";
+    cursor: pointer;
+}
+.Projects{
+    display: flex;
+    flex-direction: column;
+}
+.project-image{
+    height: 270px;
+    width: 480px;
+    margin-left: 0;
+    margin-right: 12px;
+    border-radius: 8px;
+}
+.Menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+    position: relative;
+
+}
+.Menu-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-color: rgb(211 211 211);
+    border-style: ridge;
+    border-width: 1px;
+    height: 75px;
+    width: 400px;
+    border-radius: 16px;
+    position: fixed;
+    opacity: 1;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 9999;
+}
+.menu-bar-mobile{
+    display: none;
+}
+.mobile-sites{
+    display: none;
+}
+@media (max-width:768px) {
+    .Menu-bar{
+        display: none;
+    }
+    .menu-bar-mobile{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        border-color: rgb(211 211 211);
+        border-style: ridge;
+        border-width: 1px;
+        height: 75px;
+        width: 150px;
+        border-radius: 16px;
+        position: fixed;
+        opacity: 1;
+        backdrop-filter: blur(10px);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        z-index: 9999;
+    }
+    .mobile-sites{
+        display: flex;
+        align-items: center;
+        transform: scale(2);
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+.sites{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    transform: scale(2);
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.Hero-Section{
+    margin-top: 120px;
+}
+.logo{
+    width: 12px;
+}
