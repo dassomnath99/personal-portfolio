@@ -1,16 +1,8 @@
 
-.Roboto-1 {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
 .body{
     margin-left:20%;
     margin-right: 20%;
-    font-family: "Libertinus Math";
+    font-family: 'Inter',sans-serif;
     background-color: rgb(254,254,254);
 }
 .profile-picture{
@@ -126,7 +118,7 @@
         border-style: ridge;
         border-width: 1px;
         height: 50px;
-        width: 130px;
+        width: 300px;
         border-radius: 16px;
         position: fixed;
         opacity: 1;
@@ -143,6 +135,13 @@
         margin-left: 2px;
         margin-right: 2px;
     }
+    .project-image{
+    height: 50px;
+    width: 200px;
+    margin-left: 0;
+    margin-right: 6px;
+    border-radius: 4px;
+}
 }
 .sites{
     margin-left: 10px;
